@@ -25,6 +25,10 @@ public class String1 {
         System.out.println(str2.isBlank());
         System.out.println(str.replaceAll("", "-"));
 
+        String mail= "mamamam"+"@" + str2 + ".com";
+        if (mail.endsWith(mail)) {
+            System.out.println(111);
+        }
 
     }
 
